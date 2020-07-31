@@ -4,9 +4,9 @@
 ;; Copyright (C) 2006--2012  Michael Weber
 ;; Version: 1
 ;; Package-Requires: ((paredit "21"))
-;; Homepage: http://www.foldr.org/~michaelw/emacs/redshank/
+;; Homepage: https://github.com/michaelw/redshank/
 
-;; Author: Michael Weber <michaelw@foldr.org>
+;; Author: Michael Weber <mw@foldr.org>
 ;; Keywords: languages, lisp
 
 ;; Redshank, n.  A common Old World limicoline bird (Totanus

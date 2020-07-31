@@ -44,5 +44,5 @@ Download CLISP from <http://clisp.cons.org/>.
 
 * Contact
 Send questions, bug reports, comments and feature suggestions to
-Michael Weber <michaelw+redshank@foldr.org>.  New versions can be
-found at <http://www.foldr.org/~michaelw/lisp/redshank/>.
+Michael Weber <mw+redshank@foldr.org>.  New versions can be
+found at <https://github.com/michaelw/redshank/>.
