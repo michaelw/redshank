@@ -2,6 +2,9 @@
 ;;;;;; redshank.el --- Common Lisp Editing Extensions
 
 ;; Copyright (C) 2006--2012  Michael Weber
+;; Version: 1
+;; Package-Requires: ((paredit "21"))
+;; Homepage: http://www.foldr.org/~michaelw/emacs/redshank/
 
 ;; Author: Michael Weber <michaelw@foldr.org>
 ;; Keywords: languages, lisp
@@ -10,6 +13,34 @@
 ;;   calidris), having the legs and feet pale red. The spotted
 ;;   redshank (T. fuscus) is larger, and has orange-red legs.
 ;;   Called also redleg and _CLEE_.
+
+;; Redshank extends Paredit for enhanced editing of Common Lisp code.
+;; It provides commands to insert code snippets, improve code
+;; formatting, and perform common code transformations.
+
+;; `redshank-condify-form' transforms an `if' to an equivalent `cond'
+;; `redshank-extract-to-defun' refactors code into a defun, replacing it with
+;; a function call
+;; `redshank-letify-form-up' extracts the form at point into a new `let'
+;; binding
+;; `redshank-enclose-form-with-lambda'
+;; `redshank-rewrite-negated-predicate'
+;; `redshank-maybe-splice-progn'
+;; `redshank-eval-whenify-form' wraps the top-level form at point with
+;; `eval-when'
+
+;; `redshank-align-slot-specs-in-form' aligns the slots of a DEFCLASS-like
+;; form at point
+;; `redshank-align-forms-as-columns' aligns s-expressions in region as columns
+
+;; `redshank-form-with-slots-skeleton'
+;; `redshank-defclass-skeleton'
+;; `redshank-define-condition-skeleton'
+;; `redshank-slot-spec-skeleton'
+;; `redshank-asdf-defsystem-skeleton'
+;; `redshank-defpackage-skeleton'
+;; `redshank-in-package-skeleton'
+;; `redshank-mode-line-skeleton'
 
 ;;;; Commentary
 ;;; Setup
